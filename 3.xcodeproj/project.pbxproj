@@ -17,6 +17,8 @@
 		FFDE347E29E8205400498D41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE345429E8205300498D41 /* ContentView.swift */; };
 		FFDE347F29E8205400498D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDE345529E8205400498D41 /* Assets.xcassets */; };
 		FFDE348029E8205400498D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDE345529E8205400498D41 /* Assets.xcassets */; };
+		FFDE349129E8221F00498D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE349029E8221F00498D41 /* ViewController.swift */; };
+		FFDE349529E8266300498D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDE349429E8266300498D41 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FFDE347329E8205400498D41 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDE347729E8205400498D41 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		FFDE347929E8205400498D41 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		FFDE349029E8221F00498D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFDE349429E8266300498D41 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		FFDE344D29E8205200498D41 = {
 			isa = PBXGroup;
 			children = (
+				FFDE349429E8266300498D41 /* Main.storyboard */,
 				FFDE345229E8205200498D41 /* Shared */,
 				FFDE346129E8205400498D41 /* macOS */,
 				FFDE346A29E8205400498D41 /* Tests iOS */,
@@ -99,6 +104,7 @@
 			children = (
 				FFDE345329E8205300498D41 /* _App.swift */,
 				FFDE345429E8205300498D41 /* ContentView.swift */,
+				FFDE348F29E821FA00498D41 /* Sources */,
 				FFDE345529E8205400498D41 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +145,14 @@
 				FFDE347929E8205400498D41 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		FFDE348F29E821FA00498D41 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE349029E8221F00498D41 /* ViewController.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFDE347F29E8205400498D41 /* Assets.xcassets in Resources */,
+				FFDE349529E8266300498D41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDE349129E8221F00498D41 /* ViewController.swift in Sources */,
 				FFDE347D29E8205400498D41 /* ContentView.swift in Sources */,
 				FFDE347B29E8205400498D41 /* _App.swift in Sources */,
 			);
